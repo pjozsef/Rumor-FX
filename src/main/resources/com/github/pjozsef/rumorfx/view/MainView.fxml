@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.github.pjozsef.rumorfx.component.graph.GraphPane?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Label?>
+<?import com.jfoenix.controls.JFXSlider?>
+<?import javafx.scene.layout.Region?>
+<BorderPane prefHeight="650.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <GraphPane fx:id="graphPane" maxWidth="1000.0" style="-fx-background-color: #fafafa;" />
+   </center>
+   <right>
+      <BorderPane minWidth="200.0" BorderPane.alignment="CENTER">
+         <top>
+            <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="150.0" spacing="15.0"
+                  BorderPane.alignment="CENTER">
+               <Label text="Animation speed:"/>
+               <JFXSlider fx:id="animSlider"
+                          indicatorPosition="RIGHT"
+                          min="0.0"
+                          max="3000.0"
+                          value="1000.0"
+                          majorTickUnit="1000.0"
+                          minorTickCount="5"
+                          showTickLabels="true"
+                          showTickMarks="true"
+                          snapToTicks="true"/>
+               <Region minHeight="50.0" maxHeight="50.0"/>
+               <JFXButton fx:id="push" text="Push"/>
+               <JFXButton fx:id="pull" text="Pull"/>
+               <JFXButton fx:id="pp0" text="Push-Pull b=0"/>
+               <JFXButton fx:id="pp1" text="Push-Pull b=1"/>
+               <Region minHeight="50.0" maxHeight="50.0"/>
+               <Label fx:id="rounds"/>
+               <Region minHeight="50.0" maxHeight="50.0"/>
+               <JFXButton fx:id="load" text="load"/>
+            </VBox>
+         </top>
+         <bottom>
+            <JFXButton fx:id="clear" text="Clear" BorderPane.alignment="CENTER" />
+         </bottom>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </BorderPane>
+   </right>
+</BorderPane>
