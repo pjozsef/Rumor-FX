@@ -11,7 +11,7 @@ The program was written in Kotlin with TornadoFX.
   * `./gradlew fatjar` on Linux
   * `./gradlew.bat fatjar` on Windows
 * Run
-  * `java -jar build/libs/rumorfx-all-1.0.0.jar`
+  * `java -jar build/libs/rumor-fx-all-1.0.0.jar`
 
 ##Usage
 * Graph editor pane on the left
