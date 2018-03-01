@@ -1,10 +1,10 @@
-#Rumor-fx
+# Rumor-fx
 This is the repository for my *Computer networks and Distributed systems* class assignment.
 I wrote a program that simulates the rumor spreading algorithms described in the paper, [How to Discreetly Spread a Rumor in a Crowd](http://people.cs.georgetown.edu/~cnewport/pubs/gn-disc2016.pdf) written by Mohsen Ghaffari and Calvin Newport in 2016.
 
 The program was written in Kotlin with TornadoFX.
  
-##Build and run
+## Build and run
 * Clone this repository `git clone https://github.com/pjozsef/Rumor-FX.git`
 * Install a Java8 JDK
 * Build
@@ -13,7 +13,7 @@ The program was written in Kotlin with TornadoFX.
 * Run
   * `java -jar build/libs/rumor-fx-all-1.0.0.jar`
 
-##Usage
+## Usage
 * Graph editor pane on the left
   * Add a new node by left clicking on the editor pane
   * Select a node by left clicking on it *(you to select a node to start the simulation)*
