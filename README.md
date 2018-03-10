@@ -1,6 +1,6 @@
 # Rumor-fx
 This is the repository for my *Computer networks and Distributed systems* class assignment.
-I wrote a program that simulates the rumor spreading algorithms described in the paper, [How to Discreetly Spread a Rumor in a Crowd](http://people.cs.georgetown.edu/~cnewport/pubs/gn-disc2016.pdf) written by Mohsen Ghaffari and Calvin Newport in 2016.
+I wrote a program that demonstrates the rumor spreading algorithms described in the paper, [How to Discreetly Spread a Rumor in a Crowd](http://people.cs.georgetown.edu/~cnewport/pubs/gn-disc2016.pdf) written by Mohsen Ghaffari and Calvin Newport in 2016.
 
 The program was written in Kotlin with TornadoFX.
  
